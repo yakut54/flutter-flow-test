@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681885638475",
+    "project_id": "flutter-flow-54-dev",
+    "storage_bucket": "flutter-flow-54-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681885638475:android:4dff2b86aaea9fb16392ce",
+        "android_client_info": {
+          "package_name": "com.mycompany.testfb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASDLRtKqLWalRsS6IfqJWHG4Neg8201sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
