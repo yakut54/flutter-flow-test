@@ -4,3 +4,4 @@ export '/pages/description_page/description_page_widget.dart'
     show DescriptionPageWidget;
 export '/pages/audio_page/audio_page_widget.dart' show AudioPageWidget;
 export '/pages/video_page/video_page_widget.dart' show VideoPageWidget;
+export '/test/test_widget.dart' show TestWidget;

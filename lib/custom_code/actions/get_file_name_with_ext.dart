@@ -7,17 +7,18 @@ import 'package:flutter/material.dart';
 // Begin custom action code
 // DO NOT REMOVE OR MODIFY THE CODE ABOVE!
 
-import 'index.dart'; // Imports other custom actions
-
 Future<String> getFileNameWithExt(String url) async {
-  final regex = RegExp(r'\/([^\/]+)$');
-  final match = regex.firstMatch(url);
+  // Удаляем GET-параметры
+  final uri = Uri.parse(url); // Разбираем URL
+  final path = uri.path; // Получаем путь без GET-параметров
 
-  print('getFileNameWithExt');
+  // Регулярное выражение для извлечения имени файла
+  final regex = RegExp(r'\/([^\/]+)$');
+  final match = regex.firstMatch(path); // Ищем совпадение в пути
 
   if (match != null) {
-    return match.group(1)!;
+    return match.group(1)!; // Возвращаем имя файла
   }
 
-  return '';
+  return ''; // Возвращаем пустую строку, если совпадение не найдено
 }

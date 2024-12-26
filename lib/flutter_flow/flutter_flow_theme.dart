@@ -300,9 +300,9 @@ class MobileTypography extends Typography {
         fontWeight: FontWeight.normal,
         fontSize: 15.0,
       );
-  String get labelMediumFamily => 'akrobatRegular';
+  String get labelMediumFamily => 'akrobatSemibold';
   TextStyle get labelMedium => TextStyle(
-        fontFamily: 'akrobatRegular',
+        fontFamily: 'akrobatSemibold',
         color: theme.white,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,

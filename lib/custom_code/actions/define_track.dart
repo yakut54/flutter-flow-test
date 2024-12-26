@@ -7,8 +7,6 @@ import 'package:flutter/material.dart';
 // Begin custom action code
 // DO NOT REMOVE OR MODIFY THE CODE ABOVE!
 
-import 'index.dart'; // Imports other custom actions
-
 Future<String> defineTrack(SessionStruct session) async {
   String fileNameFromUrl;
 
@@ -18,7 +16,5 @@ Future<String> defineTrack(SessionStruct session) async {
     fileNameFromUrl = await getFileNameWithExt(session.videoTrack);
   }
 
-  print('session.type >>>>>>>>> ${session.type}');
-  print('fileNameFromUrl >>>>>>>>> ${fileNameFromUrl}');
   return fileNameFromUrl;
 }
